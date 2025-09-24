@@ -22,7 +22,6 @@ public class EmployeeTest {
 
     public static void printEmployeeInfo(Employee e) {
         System.out.println(
-                " Name: " + e.getFirstName() + " " + e.getLastName() + " Monthly: " + e.getMonthlySalary() + " bath"
-                        + " Yearly: " + e.getYearlySalary() + " bath");
+                " Name: " + e.getFirstName() + " " + e.getLastName() + " Monthly: " + e.getMonthlySalary() + " bath" + " Yearly: " + e.getYearlySalary() + " bath");
     }
 }
